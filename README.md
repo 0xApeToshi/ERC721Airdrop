@@ -1,5 +1,6 @@
 # ERC721Airdrop
-Concept implementation for ERC721Airdrop.
+## THIS CONTRACT WAS NOT FULLY TESTED OR AUDITED. USE FOR RESEARCH PURPOSES ONLY!
+
 
 # Example
 
