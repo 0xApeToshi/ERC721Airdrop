@@ -1,6 +1,8 @@
 # ERC721Airdrop
 ## THIS CONTRACT WAS NOT FULLY TESTED OR AUDITED. USE FOR RESEARCH PURPOSES ONLY!
 
+Create NFT airdrops for the cost deploying of a typical `ERC721` contract, no minting required!
+
 
 # Example
 
@@ -20,9 +22,9 @@ contract AirdropNFT is ERC721Airdrop {
         ERC721Airdrop(
             "AirdropNFT",
             "ANFT",
-            0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D,
-            0,
-            9999
+            0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D, // source contract address
+            0, // from `tokenId`
+            9999 // to `tokenId`
         )
     {}
 }
